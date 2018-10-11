@@ -12,7 +12,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 username = ''  # we will give you this on the hackathon day
 password = ''  # we will give you this on the hackathon day
-url = 'https://ugm.scibite.com:8443/api/tie/v1/'
+url = 'https://ugm.scibite.com/api/tie/v1/'
 
 
 def get_all_datasets(from_type=None, to_type=None):
